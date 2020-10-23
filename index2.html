@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Menu-Bart</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            font-family: myriad pro;
+        }
+        .navigation-container{
+            position: relative;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 5px;
+            background: aqua;
+            box-sizing: border-box;
+            border-radius: 8px;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+        }
+        .logo{
+            color: salmon;
+            height: 60px;
+            font-size: 36px;
+            padding: 0px 20px;
+            text-align: center;
+            font-family: myriad pro;
+            box-sizing: border-box;
+            float: left;
+            font-weight: 700;
+            text-decoration: none;
+        }
+        .Menu{
+            position: absolute;
+             left: 27%; }
+        .fix{
+            clear: both;
+        }
+        .Menu ul{
+            padding: 0px;
+            margin: 0px 40px;
+            display: flex;
+        }
+        .Menu ul li{
+            list-style: none;
+        }
+        .Menu ul li a{
+            display:block ;
+            margin: 10px 0px;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: 400;
+            color: #3d3d;
+        }
+        .active{
+            float:right;
+        }
+        .active input{
+           display: block;
+           border: 1px solid #fff;
+           margin: 10px 20px;
+           padding: 10px 10px;
+           text-align:center;
+           font-size: 12px;
+           color: #262626;
+           font-weight: 400;
+           background: #fff;
+           border-radius: 18px;
+           text-decoration: none;
+        }
+        .Menu ul li a:hover{
+            background: #069370;
+            transition: all ease 0.2s;
+            border-radius: 18px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="navigation-container">
+    <a href="#" class="logo">LOGO</a>
+        <div class="Menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul></div>
+            <div class="active"><input type="search" placeholder="Search Something Hare "/></div>
+        <div class="fix"></div>
+    </div>
+    
+</body>
+</html>
